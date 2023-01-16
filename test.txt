@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 test file to check stash command
+=======
+new test file
+>>>>>>> Stashed changes
