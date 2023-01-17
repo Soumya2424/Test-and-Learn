@@ -2,4 +2,7 @@ This is the bug fix in development branch
 after reverting the changes tofix bug- pushing again as feature 5
  After bug fixing, this is the new feature with minor alteration
  This is the advancement of previous feature
+<<<<<<< HEAD
 Feature 2 is completed and ready for release
+=======
+>>>>>>> e2ef421 (Added feature2.2 in development branch)
