@@ -4,5 +4,7 @@ after reverting the changes tofix bug- pushing again as feature 5
  This is the advancement of previous feature
 <<<<<<< HEAD
 Feature 2 is completed and ready for release
+This is the advancement of previous feature
+Added few more changes to make it more optimized.
 =======
 >>>>>>> e2ef421 (Added feature2.2 in development branch)
