@@ -1,0 +1,25 @@
+version: '3.4'
+services:
+  super-app-db:
+    image: mysql:8.0.32
+    environment:
+      MYSQL_DATABASE: 'super-app'
+      MYSQL_ROOT_PASSWORD: 'SuperApp1'
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+  super-app-node:
+    build: ./node
+    ports:
+      - "3000:3000"
+#Under the services section we will list all the types of applications to be configured.
+
+#To start with we configure a super-app-db service which pulls a Docker image of MySQL with version 8.0.28.
+
+#Next, we instruct the container to create a database name super-app with root as default user and it’s password set to $SuperApp1.
+
+#Lastly, since the default port for MySQL is 3306, we are mapping it to the container’s port 3306 and exposing that port for acces#
+
+
+
